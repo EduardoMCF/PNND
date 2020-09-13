@@ -1,0 +1,21 @@
+{
+  "name": "PNND",
+  "version": "1.0.0",
+  "description": "Trata-se de um sistema colaborativo de descrição de elementos de imagens. Nele usuários poderão criar tags destacando atores ou objetos de uma imagem, assim como avaliar as submissões de outros usuários. As marcações feitas pelos usuários serão incorporadas, baseado-se na qualidade das avaliações, a um modelo que será utilizado para detectar objetos em imagens e gerar uma descrição textual da mesma.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMCF/PNND.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMCF/PNND/issues"
+  },
+  "homepage": "https://github.com/EduardoMCF/PNND#readme",
+  "dependencies": {}
+}

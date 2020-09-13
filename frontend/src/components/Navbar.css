@@ -1,0 +1,27 @@
+.navUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: white;
+  background-color: #036042;
+  width:100%;
+}
+
+.navLi {
+  float:left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  border-right: 1px solid #bbb;
+  width: 15%;
+}
+
+.navLi:hover{
+	background-color:#7000ad;
+}
+
+.navLi a{
+	color: white;
+	text-decoration: none;
+}
