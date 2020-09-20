@@ -12,11 +12,14 @@
 }
 
 .queries input[type=text] {
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin-right: 10px;
-	padding-right:300px;
-	padding-right: 200px;
+	padding-right:400px;
 }
 
 .queries select{
+	padding-top: 10px;
+	padding-bottom: 10px;
 	margin: 0px 10px;
 }

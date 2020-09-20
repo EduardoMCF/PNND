@@ -11,6 +11,10 @@ body {
 
 }
 
+#root{
+    transition: margin-left .5s;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

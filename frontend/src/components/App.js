@@ -6,8 +6,11 @@ import Navbar from './Navbar.js';
 const App = () => {
   const itens = [
     {id : 1, tumb : 'cows.jpg', tags : ['cow'], rating : 4.2},
+    {id : 1, tumb : 'cows.jpg', tags : ['cow'], rating : 4.2},
     {id : 2, tumb : 'man_and_dog.jpg', tags : ['man','dog'], rating : 4.9},
-    {id : 3, tumb : 'celtinha.png', tags : ['car'], rating : 2.3}
+    {id : 2, tumb : 'man_and_dog.jpg', tags : ['man','dog'], rating : 4.9},
+    {id : 3, tumb : 'celtinha.png', tags : ['car'], rating : 2.3},
+    {id : 3, tumb : 'celtinha.png', tags : ['car'], rating : 2.3},
   ];
   const menuItens = [{section:'Tela1',href:'#'}, {section:'Tela2',href:'#'}, {section:'Tela3',href:'#'}];
 
