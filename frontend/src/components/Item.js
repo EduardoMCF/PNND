@@ -3,14 +3,21 @@ import './Item.css';
 
 const Item = ({tumb, tags, rating}) => (
 	 	<div className="Item">
-	 		<img src={tumb}/>
-	 		<ul> 
-	 			<h3>Tags:</h3> 
-	 			{tags.map(tag => <li>{tag}</li>)}
+	 		<img src={tumb} className="tumb"/>
+	 		<ul className='tagsrating'>
+	 			<li>
+			 		<ul className="tags"> 
+			 			{tags.map(tag => <li className='tag'>{tag}</li>)}
+			 		</ul>
+			 	</li>
+			 	<li>
+			 		<div className="rating"> Rating : {rating} </div>
+	 			</li>
 	 		</ul>
-	 		<div className="rating"> Rating : {rating} </div>
-	 		<button className="edit"> Edit </button>
-	 		<button className="fav"> Fav </button>
+	 		<div className='buttons'>
+		 		<button className="edit"> Edit </button>
+		 		<button className="fav"> Fav </button>
+	 		</div>
 	 	</div>
 )
 
