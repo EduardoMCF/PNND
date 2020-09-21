@@ -1,0 +1,43 @@
+.bg{
+	margin: 0px;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #800E25;
+}
+
+.annotate {
+	margin: 0 auto;
+	border-radius: 5px; 
+	display: flex;
+	flex-flow: column;
+	padding:5px;
+	background-color: #BF1537;
+	width: 60%;
+}
+
+.annotate ul{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	justify-content: space-between;
+}
+
+.annotate input[type=text]{
+	padding: 3px 60px;
+}
+
+.annotate label{
+	color: white;
+}
+
+.annotate img{
+	width: 100%;
+	height: 500px;
+}
+
+.annotate input[type=submit]{
+	margin: 0 auto;
+	padding: 5px;
+	width:45%;
+}
