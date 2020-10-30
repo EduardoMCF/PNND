@@ -5,12 +5,18 @@ import Navbar from '../components/Navbar.js';
 
 const Listing = () => {
   const [itens, setItens] = useState([]);
+  const [loading, setLoading] = useState(1);
   const menuItens = [{section:'List',route:'/'}, {section:'Annotate',route:'/annotate'}];
 
   useEffect(() => {
-    fetch('http://localhost:3006/annotations')
-    .then(response => response.json())
-    .then(data => setItens(data))
+    const getData = async () => {
+      let response = await fetch('http://localhost:3006/annotations');
+      let data = await response.json();
+      setItens(data);
+      setLoading(0);
+    }
+    
+    getData()
   },[]);
 
   return (
@@ -29,7 +35,7 @@ const Listing = () => {
         </select>
       </div>
       <section className="itens"> 
-        <ItemList itens = {itens}/>
+        {loading ? <h1>Loading</h1> : <ItemList itens = {itens}/>}
       </section>
     </div> 
   );
