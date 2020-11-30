@@ -17,6 +17,7 @@ class App extends Component {
         <Switch>
           <Route exact path="/" component={Listing} />
           <Route exact path="/annotate" component={Annotate} />
+          <Route exact path="/annotate/:id" component={Annotate} />
         </Switch>
       </Router>
     );
